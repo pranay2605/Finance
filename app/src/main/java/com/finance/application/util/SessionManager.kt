@@ -9,6 +9,7 @@ object SessionManager {
 
     private const val USER_TOKEN = "user_token"
 
+
     fun saveAuthToken(context: Context, token: String) {
         saveString(context, USER_TOKEN, token)
     }
